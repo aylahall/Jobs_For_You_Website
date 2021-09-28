@@ -1,0 +1,380 @@
+*{
+	box-sizing: border-box; 
+}
+
+/* Base styles */
+body{
+	margin: 0px; 
+}
+
+header {
+    width: 100%;
+    color:black;
+    padding-bottom: 3rem;
+    padding-right: 6rem;
+}
+
+nav {
+	width: 100%;
+	height: 40px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0); 
+	font-size: 20px;
+    font-family: "Roboto";
+	padding-top: 10px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+nav a, nav h3{
+	float: left;
+    font-size: 20px;
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration:none;
+	color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: "Abril Fatface";
+    letter-spacing: 1.5px;
+    font-size: 55px;
+    margin-right: 6rem;
+    margin-bottom: -.5rem;
+}
+
+h2 {
+    margin-top: 75px;
+    font-family: "Abril Fatface";
+    letter-spacing: 1.5px;
+    color:#E98A6C;
+    font-size: 60px;
+    text-align: center;
+    clear: both;
+    margin-bottom: .5rem;
+}
+
+h3 {
+    font-family: "Abril Fatface";
+    letter-spacing: 1.5px;
+    color:black;
+    font-size: 25px;
+    text-align: center;
+}
+
+h4 {
+    font-family: "Abril Fatface";
+    font-size: 50px;
+    padding: 2rem 1rem 0rem 1rem;
+    margin-bottom: 2.5rem;
+    
+}
+
+p {
+    font-family: "Roboto";
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+nav a:hover{
+	color: #E98A6C;
+}
+
+footer {
+    padding: .1rem 0 .1rem 0;
+    color: black;
+    text-align: center;
+}
+
+.boxed {
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    margin-bottom: .2rem;
+    padding-left: .1rem;
+}
+
+ul li {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.callout, .booknow {
+    width: 300px;
+    padding: 1rem 1rem;
+    background: #B33E2E;
+    border-radius: 10px;
+    margin: 3rem 0 0 0;
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+div {
+    display: inline-block;
+    padding-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.theprofile {
+    width: 500px;
+    padding: 1rem 1rem ;
+    background: white;
+    border: 1px solid #E98A6C;
+    border-radius: 10px;
+    color: #E98A6C;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Home page */
+
+.sideimage {
+    width: 100%;
+}
+
+.leftimage {
+    width: 100%;
+}
+
+.moveup {
+    padding-top: 1rem;
+}
+
+.change {
+    background-color: #EEEEEE;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: 5rem;
+    padding-right: 2rem;
+    text-align: center;
+}
+
+.doubleboxed {
+    background-color: #E98A6C;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    margin-bottom: .5rem;
+    padding-left: .1rem;
+    color: white;
+    letter-spacing: 1.5px;
+    padding-bottom: 2.5rem;
+}
+
+
+/* Profile page */
+
+.doubleboxed1 {
+    background-color: #E98A6C;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    width: 95%;
+    color: white;
+    letter-spacing: 1.5px;
+    height: 130px;
+}
+
+
+.profile {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 2rem;
+}
+
+.iconscv {
+    width: 90%;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    clear: left;
+}
+
+.bringin {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.rectangle {
+    margin-left: 2.5vw;
+    margin-right: 2vw;
+    text-align:left;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 2rem;
+    height: 719px;
+}
+
+/* Sessions page */
+
+.down {
+    margin: auto;
+    padding-top: 2rem;
+    width: 30%;
+    padding-bottom: 3rem;
+}
+
+.check {
+    padding-left: 3.5vw;
+}
+
+main {
+    width: 100%;
+    color: black;
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+
+/* Media queries */
+
+@media screen and (min-width: 1140px) {
+    .leftimage {
+            float: left;
+            width: 50%;
+            margin: 0 2rem 1rem 0;
+        }
+    
+    
+    .sideimage {
+        float: right;
+        width: 50%;
+        padding-left: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 1252px) {
+    .profile {
+        float: left;
+        width: 37%;
+        margin: 0 2rem 0 0;
+    }
+    .iconscv {
+        float: left;
+        width: 45%;
+        padding: 0 8rem 2rem 2rem;
+    }
+
+        .rectangle {
+            position: absolute;
+            margin-left: 2.5vw;
+            background-color: #FFFFFF;
+            box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.25);
+            width: 95%;
+            text-align: left;
+            margin-top: 2rem;
+            margin-right: 2rem;
+
+        }
+    }
+    
+@media screen and (max-width:1137px) {
+    .bringin{
+    text-align: left;
+    padding-left: 0rem; }
+
+    .theprofile{
+        margin-left: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1137px) {
+    header, main {
+        text-align: center;
+        padding: 0 0 0 0;
+    }
+
+    h1 { 
+        text-align: center;
+        font-size: 35px;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 35px;
+        padding-top: 1rem;
+        padding-left: .5rem;
+    }
+
+    h4 {
+        font-size: 35px;
+    }
+    p {
+        margin: 1rem 1rem 2rem 2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    ul li {
+        display: inline-block;
+        width: 23%;
+        padding-bottom: 2rem;
+        padding-right: 2rem;
+    }
+
+    ul {
+        padding-inline-start: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .small {
+        font-size: 15px;
+        margin: 0 1rem 0 1rem;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .down {
+        display: block;
+        width: 90%;
+        padding-bottom: 5rem;
+        padding-right: 0rem;
+        margin-left: -0.2rem;
+    }
+}
+
+@media screen and (max-width: 656px){
+    .nav, nav a, nav h3 {
+        font-size: 15px;
+        margin-left: .8em;
+        margin-right: .8em;
+        text-decoration:none;
+        color: rgb(0, 0, 0);
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .hide {
+        display: none;
+    } 
+}
